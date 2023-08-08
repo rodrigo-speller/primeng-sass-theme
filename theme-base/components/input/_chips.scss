@@ -3,7 +3,6 @@
 .p-chips {
     .p-chips-multiple-container {
         padding: math.div(nth($inputPadding, 1), 2) nth($inputPadding, 2);
-        gap: $inlineSpacing;
 
         &:not(.p-disabled):hover {
             border-color: $inputHoverBorderColor;
@@ -15,6 +14,7 @@
 
         .p-chips-token {
             padding: math.div(nth($inputPadding, 1), 2) nth($inputPadding, 2);
+            margin-right: $inlineSpacing;
             background: $highlightBg;
             color: $highlightTextColor;
             border-radius: $borderRadius;

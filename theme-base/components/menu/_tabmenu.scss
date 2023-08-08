@@ -3,11 +3,6 @@
         background: $tabviewNavBg;
         border: $tabviewNavBorder;
         border-width: $tabviewNavBorderWidth;
-        
-
-        .p-menuitem-badge {
-            @include menuitem-badge();
-        }
 
         .p-tabmenuitem {
             margin-right: $tabviewHeaderSpacing;

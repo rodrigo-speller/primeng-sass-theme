@@ -31,7 +31,7 @@ $formElementTransition:background-color $transitionDuration, border-color $trans
 $actionIconTransition:background-color $transitionDuration, color $transitionDuration, box-shadow $transitionDuration !default;
 $listItemTransition:none !default;
 $primeIconFontSize:1rem !default;
-$divider:1px solid hsla(0,0%,100%,.12) !default;
+$divider:1px solid rgba(255, 255, 255, 0.12) !default;
 $inlineSpacing:.5rem !default;
 $disabledOpacity:.38 !default;
 $maskBg:rgba(0, 0, 0, 0.32) !default;
@@ -69,14 +69,14 @@ $inputTextFontSize:1rem !default;
 $inputBg:#1e1e1e !default;
 $inputTextColor:$emphasis-high !default;
 $inputIconColor:$emphasis-medium !default;
-$inputBorder:1px solid hsla(0,0%,100%,.3) !default;
+$inputBorder:1px solid rgba(255, 255, 255, 0.3) !default;
 $inputHoverBorderColor:$emphasis-medium !default;
 $inputFocusBorderColor:$primaryColor !default;
 $inputErrorBorderColor:$errorColor !default;
 $inputPlaceholderTextColor:$emphasis-medium !default;
-$inputFilledBg:hsla(0,0%,100%,.06) !default;
-$inputFilledHoverBg:hsla(0,0%,100%,.08) !default;
-$inputFilledFocusBg:hsla(0,0%,100%,.1) !default;
+$inputFilledBg:rgba(255, 255, 255, 0.06) !default;
+$inputFilledHoverBg:rgba(255, 255, 255, 0.08) !default;
+$inputFilledFocusBg:rgba(255, 255, 255, 0.1) !default;
 
 //input groups
 $inputGroupBg:$inputBg !default;
@@ -86,12 +86,12 @@ $inputGroupAddOnMinWidth:2.357rem !default;
 //input lists (e.g. dropdown, autocomplete, multiselect, orderlist)
 $inputListBg:#1e1e1e !default;
 $inputListTextColor:$textColor !default;
-$inputListBorder:1px solid hsla(0,0%,100%,.3) !default;
+$inputListBorder:1px solid rgba(255, 255, 255, 0.3) !default;
 $inputListPadding:0 !default;
 $inputListItemPadding:1rem 1rem !default;
 $inputListItemBg:transparent !default;
 $inputListItemTextColor:$textColor !default;
-$inputListItemHoverBg:hsla(0,0%,100%,.04) !default;
+$inputListItemHoverBg:rgba(255, 255, 255, 0.04) !default;
 $inputListItemTextHoverColor:$textColor !default;
 $inputListItemBorder:0 none !default;
 $inputListItemBorderRadius:0 !default;
@@ -101,7 +101,7 @@ $inputListHeaderPadding:1rem !default;
 $inputListHeaderMargin:0 !default;
 $inputListHeaderBg:#1e1e1e !default;
 $inputListHeaderTextColor:$textColor !default;
-$inputListHeaderBorder:1px solid hsla(0,0%,100%,.12) !default;
+$inputListHeaderBorder:1px solid rgba(255, 255, 255, 0.12) !default;
 
 //inputs with overlays (e.g. autocomplete, dropdown, multiselect)
 $inputOverlayBg:#2b2b2b !default;
@@ -212,7 +212,7 @@ $linkButtonFocusShadow:none !default;
 //checkbox
 $checkboxWidth:18px !default;
 $checkboxHeight:18px !default;
-$checkboxBorder:2px solid hsla(0,0%,100%,.7) !default;
+$checkboxBorder:2px solid rgba(255, 255, 255, 0.7) !default;
 $checkboxIconFontSize:14px !default;
 $checkboxActiveBorderColor:$primaryColor !default;
 $checkboxActiveBg:$primaryColor !default;
@@ -224,7 +224,7 @@ $checkboxActiveHoverBorderColor:$primaryColor !default;
 //radiobutton
 $radiobuttonWidth:20px !default;
 $radiobuttonHeight:20px !default;
-$radiobuttonBorder:2px solid hsla(0,0%,100%,.7) !default;
+$radiobuttonBorder:2px solid rgba(255, 255, 255, 0.7) !default;
 $radiobuttonIconSize:10px !default;
 $radiobuttonActiveBorderColor:$primaryColor !default;
 $radiobuttonActiveBg:$primaryTextColor !default;
@@ -272,7 +272,7 @@ $ratingStarIconOnColor:$primaryColor !default;
 $ratingStarIconHoverColor:$primaryColor !default;
 
 //slider
-$sliderBg:hsla(0,0%,100%,.3) !default;
+$sliderBg:rgba(255, 255, 255, 0.3) !default;
 $sliderBorder:0 none !default;
 $sliderHorizontalHeight:2px !default;
 $sliderVerticalWidth:2px !default;
@@ -329,9 +329,9 @@ $inputSwitchHandleWidth:1.50rem !default;
 $inputSwitchHandleHeight:1.50rem !default;
 $inputSwitchHandleBorderRadius:50% !default;
 $inputSwitchSliderPadding:-1px !default;
-$inputSwitchSliderOffBg:hsla(0,0%,100%,.3) !default;
+$inputSwitchSliderOffBg:rgba(255, 255, 255, 0.3) !default;
 $inputSwitchHandleOffBg:#bdbdbd !default;
-$inputSwitchSliderOffHoverBg:hsla(0,0%,100%,.3) !default;
+$inputSwitchSliderOffHoverBg:rgba(255, 255, 255, 0.3) !default;
 $inputSwitchSliderOnBg:rgba($primaryColor, .5) !default;
 $inputSwitchSliderOnHoverBg:rgba($primaryColor, .5) !default;
 $inputSwitchHandleOnBg:$primaryColor !default;
@@ -757,14 +757,14 @@ $dividerHorizontalPadding:0 1.25rem !default;
 $dividerVerticalMargin:0 1.25rem !default;
 $dividerVerticalPadding:1.25rem 0 !default;
 $dividerSize:1px !default;
-$dividerColor:hsla(0,0%,100%,.12) !default;
+$dividerColor:rgba(255, 255, 255, 0.12) !default;
 
 //avatar
-$avatarBg:hsla(0,0%,100%,.12) !default;
+$avatarBg:rgba(255, 255, 255, 0.12) !default;
 $avatarTextColor:$textColor !default;
 
 //chip
-$chipBg:hsla(0,0%,100%,.12) !default;
+$chipBg:rgba(255, 255, 255, 0.12) !default;
 $chipTextColor:$textColor !default;
 $chipBorderRadius: 16px !default;
 
@@ -782,8 +782,8 @@ $skeletonBg:rgba(255,255,255,.06) !default;
 $skeletonAnimationBg:rgba(255,255,255,.04) !default;
 
 //splitter
-$splitterGutterBg:hsla(0,0%,100%,.04) !default;
-$splitterGutterHandleBg:hsla(0,0%,100%,.12) !default;
+$splitterGutterBg:rgba(255, 255, 255, 0.04) !default;
+$splitterGutterHandleBg:rgba(255, 255, 255, 0.12) !default;
 
 //speeddial
 $speedDialButtonWidth: 4rem !default;

@@ -76,10 +76,6 @@
             }
         }
     }
-
-    .p-menuitem-badge {
-        @include menuitem-badge();
-    }
 }
 
 @media screen and (max-width: 960px) {

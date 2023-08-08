@@ -24,11 +24,9 @@
     }
 
     &.p-multiselect-chip {
-        .p-multiselect-label {
-            gap: $inlineSpacing;
-        }
         .p-multiselect-token {
             padding: math.div(nth($inputPadding, 1), 2) nth($inputPadding, 2);
+            margin-right: $inlineSpacing;
             background: $highlightBg;
             color: $highlightTextColor;
             border-radius: $borderRadius;
@@ -96,7 +94,13 @@
     }
 
     .p-multiselect-items {
-        padding: $inputListPadding;
+        &:not(.p-multiselect-virtualscroll) {
+            padding: $inputListPadding;
+        }
+
+        &.p-multiselect-virtualscroll .cdk-virtual-scroll-content-wrapper {
+            padding: $inputListPadding;
+        }
 
         .p-multiselect-item {
             margin: $inputListItemMargin;

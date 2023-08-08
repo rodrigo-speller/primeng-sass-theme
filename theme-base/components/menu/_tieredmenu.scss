@@ -53,8 +53,4 @@
     .p-submenu-icon {
         font-size: $menuitemSubmenuIconFontSize;
     }
-
-    .p-menuitem-badge {
-        @include menuitem-badge();
-    }
 }

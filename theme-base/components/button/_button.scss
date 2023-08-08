@@ -88,10 +88,6 @@
         @include focused();
     }
 
-    .p-button-label {
-        transition-duration: $transitionDuration;
-    }
-
     .p-button-icon-left {
          margin-right: $inlineSpacing;
     }

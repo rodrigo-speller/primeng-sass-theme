@@ -109,17 +109,3 @@ p-cascadeselect.p-cascadeselect-clearable {
         right: $inputGroupAddOnMinWidth;
     }
 }
-
-.p-overlay-modal {
-    .p-cascadeselect-sublist {
-        .p-cascadeselect-panel {
-            box-shadow: none;
-            border-radius: 0;
-            padding: math.div($inlineSpacing, 2) 0 math.div($inlineSpacing, 2) $inlineSpacing;
-        }
-    }
-
-    .p-cascadeselect-item-active > .p-cascadeselect-item-content .p-cascadeselect-group-icon {
-        transform: rotate(90deg);
-    }
-}
